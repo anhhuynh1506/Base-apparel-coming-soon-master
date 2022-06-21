@@ -94,6 +94,9 @@ body {
 
 .email-container .submit-btn {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
     top: 0;
     right: 0;
     background: var(--gradient-w-r);
@@ -118,7 +121,6 @@ body {
     border-radius: 50px;
     padding: 1.1rem 0 1.1rem 2rem;
     width: 95%;
-    transform: translateY(0.1rem);
 }
 
 .email-container input::placeholder {
